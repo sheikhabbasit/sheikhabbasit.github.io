@@ -1,0 +1,74 @@
+body {
+	background-color: #AA3939;
+}
+h1 {
+	text-align: center;
+	color: #FFAAAA;
+	transition: 1s all;
+}
+ul{
+	text-align: center;
+	/*margin-top: 3rem;*/
+}
+li {
+	display: inline-block;
+	transition: 0.1s all ease-in;
+}
+
+li:hover {
+	transform: scale(1.2);
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFAAAA;
+	text-align: center;
+	
+}
+a:visited {
+	text-decoration: none;
+	color: #FFAAAA;
+	text-align: center;
+}
+a:active {
+	text-decoration: none;
+	color: purple;
+	text-align: center;
+}
+
+.makeinline {
+	background-color: rgba(0,0,0, 0.8);
+	padding: 10px;
+}
+
+/*Sets parameters on hovering*/
+
+.makeinline:hover {
+	background-color: rgba(0,0,0,1);
+}
+
+p{
+	text-align: center;
+	color: #FFAAAA;
+	font-weight: bolder;
+}
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: 0.5s;
+}
+.portfolio{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 5px solid pink;
+}
+.one{
+	order: 8;
+}
+img:hover{
+	transform: scale(1.2);
+
+}
+
